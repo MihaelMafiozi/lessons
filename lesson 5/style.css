@@ -1,0 +1,23 @@
+.fd{
+    width: 150px;
+    height: 150px;
+    border-radius:90px ;
+}
+.stones{
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    display: block;
+    border-radius: 30px;
+
+}
+body{
+    background:gold;
+}
+table{
+    font-size: 20px;
+    text-align: center;
+}
+.text{
+    margin-left: 780px;
+}

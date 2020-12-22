@@ -1,0 +1,18 @@
+body{
+    background:gold ;
+}
+h1{
+    text-align: center;
+}
+img{
+    border-radius: 20px;
+    border: 1px solid blue;
+    width: 500px;
+    height: 275px;
+    margin: auto;
+}
+.fd{
+    margin:auto;
+    width:500px;
+    height: 275px;
+}
