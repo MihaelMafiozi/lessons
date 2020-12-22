@@ -1,0 +1,26 @@
+.box{
+    background: -moz-linear-gradient(rgb(79, 218, 63),rgb(49, 55, 214), rgb(162, 58, 58));
+    width: 500px;
+    height: 250px;
+    margin: 70px 70px;
+}
+img{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    bottom: 150px;
+    right: 40px;
+}
+.text{
+width: 150px;
+height: 250px;
+position: relative;
+left: 330px;
+bottom: 400px;
+}
+h1{
+    font-size: medium;
+    text-align: end;
+}
+body{
+    background:black;
