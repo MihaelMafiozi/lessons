@@ -1,0 +1,208 @@
+.body{
+    background: yellow;
+    width: 300px;
+    height: 400px;
+    top: 300px;
+    left: 800px;
+    position: relative;
+    border-radius: 50% 50% 0 0;
+}
+.cluv{
+    width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 100px solid brown;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    left: 1080px;
+    top: 360px;
+    transform: rotate(-20deg);
+}
+.cluv1{
+    width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 100px solid brown;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    left: 1086px;
+    top: 430px;
+    transform: rotate(10deg);
+}
+.aizik{
+    width: 0;
+	height: 0;
+	border-top: 4px solid transparent;
+	border-left: 18px solid red;
+    border-bottom: 4px solid transparent;
+    position: absolute;
+    left: 1095px;
+    top: 417px;
+    transform: rotate(-10deg);
+}
+.eye{
+    height:30px;
+  width: 15px;
+  border-radius: 150px 0 0 150px;
+  border-top: 5px solid #000;
+  border-left: 5px solid #000;
+  border-bottom: 5px solid #000;
+  transform: translate(100px) rotate(-120deg);
+  z-index: 3;
+  position: absolute;
+  top: 370px;
+  left: 880px;
+}
+.chub{
+    width: 0;
+    height: 0;
+    border-right: 150px solid transparent;
+    border-top: 150px solid lightyellow;
+    border-left: 150px solid lightyellow;
+    border-bottom: 150px solid lightyellow;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    position: absolute;
+    z-index: 3;
+    top: 180px;
+    transform: rotate(60deg);
+    left: 750px;
+}
+.hand{
+    width: 10em;
+  height: 5em;
+  
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  background: yellow;
+  left: 690px;
+  position: absolute;
+  top: 480px;
+  transform: rotate(20deg);
+  transition: all 0.6s;
+}    
+.hand1{
+    width: 10em;
+    height: 5em;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    background: yellow;
+    left: 1070px;
+    position: absolute;
+    top: 480px;
+    transform: rotate(-20deg);
+    transition: all 0.6s;
+}
+.jopa{
+    width: 13.3em;
+    height: 13.3em;
+    margin: 2em 2em;
+    background: rgb(172, 172, 27);
+    border-radius: 100% 0;
+    position: absolute;
+    top: 570px;
+    left:820px ;
+    z-index: 3;
+    transform: rotate(47deg);
+}
+.noga{
+    width: 2px;
+    height: 140px;
+    background: red;
+    position: absolute;
+    z-index: 4;
+    transform: rotate(20deg);
+    left: 900px;
+    top: 720px;
+}
+.noga1{
+    width: 2px;
+    height: 140px;
+    background: red;
+    position: absolute;
+    z-index: 4;
+    transform: rotate(-20deg);
+    left: 1020px;
+    top: 720px;
+}
+.palec{
+        width: 0;
+        height: 0;
+        border-top: 8px solid transparent;
+        border-left: 40px solid brown;
+        border-bottom: 8px solid transparent;
+        position: absolute;
+        left: 878px;
+        top: 849px;
+        transform: rotate(20deg);
+}
+.palec1{
+   
+        width: 0;
+           height: 0;
+        border-top: 8px solid transparent;
+        border-left: 40px solid brown;
+        border-bottom:8px solid transparent;
+        position: absolute;
+        left: 1040px;
+        top: 835px;
+        transform: rotate(-23deg);
+}
+#infinity {
+    position: relative;
+    width: 212px;
+    height: 100px;
+    top: -400px;
+    left: 20px;
+}
+ 
+#infinity:before,
+#infinity:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;    
+    border: 20px solid gray;
+    -moz-border-radius: 50px 50px 0 50px;
+         border-radius: 50px 50px 0 50px;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+ 
+#infinity:after {
+    left: auto;
+    right: 0;
+    -moz-border-radius: 50px 50px 50px 0;
+         border-radius: 50px 50px 50px 0;
+    -webkit-transform:rotate(45deg);
+       -moz-transform:rotate(45deg);
+        -ms-transform:rotate(45deg);
+         -o-transform:rotate(45deg);
+            transform:rotate(45deg);
+}
+.hand:hover{
+    transform: rotate(50deg);
+    
+}
+.hand1:hover{
+    transform: rotate(-50deg);
+}
+
+body{
+    background: lightgreen;
+}
+.holm{
+    background: green;
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    left: 770px;
+    top: 800px;
+    z-index: -1;
+    border-radius: 100%;
+}

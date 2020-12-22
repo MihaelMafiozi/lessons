@@ -1,0 +1,88 @@
+.box1 {
+    text-decoration: none;
+    background-color: rgb(112, 104, 56);
+    width: 200px;
+    height: 200px;
+    transition: all 0.8s;
+    margin-left: 100px;
+    overflow: scroll;
+    font-size: 15px;
+    
+}
+.box1:hover {
+    background-color: rgb(150, 196, 150);
+    font-size: 25px;
+    height: 500px;
+    width: 500px;
+     
+}
+
+.box2 {
+    text-decoration: none;
+    background-color: rgb(146, 140, 106);
+    width: 300px;
+    height: 300px;
+    transition: all 0.8s;
+    margin-left: 200px;
+    overflow: scroll;
+    font-size: 15px;
+}
+.box2:hover {
+    background-color: rgb(172, 71, 71);
+    font-size: 30px;
+    height: 500px;
+    width: 500px;
+    font-size: 30px;
+
+}
+.box3 {
+    text-decoration: none;
+    background-color: rgb(180, 154, 123);
+    width: 300px;
+    height: 300px;
+    transition: all 0.8s;
+    margin-left: 300px;
+    overflow: scroll;
+    font-size: 15px;
+}
+.box3:hover {
+    background-color: rgb(103, 159, 160);
+    font-size: 30px;
+    height: 500px;
+    width: 500px;
+    font-size: 20px;
+}
+.box4 {
+    text-decoration: none;
+    background-color: rgb(77, 59, 68);
+    width: 300px;
+    height: 300px;
+    transition: all 0.8s;
+    margin-left: 400px;
+    overflow: scroll;
+    font-size: 15px;
+    }
+.box4:hover {
+    background-color: rgb(155, 131, 128);
+    font-size: 30px;
+    height: 500px;
+    width: 500px;
+    font-size: 20px;
+}    
+.box5 {
+    text-decoration: none;
+    background-color: rgb(95, 92, 74);
+    width: 300px;
+    height: 300px;
+    transition: all 0.8s;
+    margin-left: 500px;
+    overflow: scroll;
+    font-size: 15px;
+}  
+.box5:hover {
+    background-color: rgb(97, 114, 97);
+    font-size: 30px;
+    height: 500px;
+    width: 500px;
+    font-size: 20px;
+}
