@@ -1,0 +1,54 @@
+body{
+    background-image: url(img/bgpinterest.png);
+    width: 100%;
+}
+.fab{
+    background: #e60023;
+}
+.login :focus{
+    width: 500px;
+    height: 700px;
+    background: white;
+    margin: auto;
+    position: relative;
+    top: 500px;
+    left: 100px;
+    z-index: 2;
+}
+.login{
+    width: 72px;
+    height: 40px;
+    position: relative;
+    left: 1717px;
+    top: 12px;
+    border: none;
+    background: #e60023;
+    border-radius: 26px;
+    font: 600 17.3333px Arial;
+    color: #FFFFFF;
+}
+.signup{
+    width: 80px;
+    height: 40px;
+    position: relative;
+    left: 1727px;
+    top: 12px;
+    z-index: 0;
+    border: none;
+    background: #EFEFEF;
+    border-radius: 25px;
+    font: 600 17.3333px Arial;
+}
+.login:hover{
+    background: #ad081b;
+}
+.signup:hover{
+    background: #e2e2e2;
+}
+
+button:active{
+    text-decoration: none;
+}
+.fab{
+    background: #e60023;
+}
