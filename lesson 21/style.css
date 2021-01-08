@@ -1,0 +1,69 @@
+a{
+    text-decoration: none;
+    color: aqua;
+    text-align: center;
+    transition:all 1s;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.box {
+    width: 100%;
+    background-color: black;
+}
+.box ul{
+    list-style: none;
+    position: relative;
+    color: aqua;
+}
+.box > ul > li{
+    float: left;
+}
+.box ul::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.box ul li a{
+    display: inline-block;
+    padding: 10px 50px;
+    width: 129.3px;
+    text-decoration: none;
+}
+.box ul li a:hover{
+    background: #950740;
+}
+.box ul ul{
+    display: none;
+    position: absolute;
+}
+.box li:hover > ul{
+    display: block;
+    background: black;
+}
+@media screen and (max-width:500px){
+    .box {
+        width: 20%;
+        background-color: black;
+    }
+    .box ul li a{
+        display: inline-block;
+        padding: 5px 30px;
+        width: 40px;
+        font-size: 10px;
+        text-decoration: none;
+    }
+    .box > ul > li{
+        float: right;
+    }
+    .box li:hover > ul{
+        display:inline-block;
+        background: black;
+    }
+    a{
+        text-decoration: none;
+        text-align: center;
+        
+    }
+}
