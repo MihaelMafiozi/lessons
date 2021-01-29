@@ -1,0 +1,229 @@
+body{
+    background: lightgrey;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.project{
+    width: 1701px;
+    margin: auto;
+}
+.menu{
+    background: #FFFFFF;
+    padding: 30px 124px;
+    
+}
+.nav1{
+    width: 50%;
+    float: right;
+    display: flex;
+}
+.nav{
+    display: flex;
+    flex-direction:row;
+    margin-right: 50px;
+}
+.content{
+    background-image: url(img/bg1.png);
+    width: 100%;
+    height: 900px;
+    z-index: 1;
+}
+.grey{
+    z-index: 2;
+    background: black;
+    opacity: 0.7;
+    width: 100%;
+    height: 900px;
+}
+.textcon{
+    position: relative;
+    text-align: center;
+    top:-620px;
+    color: white;
+    font-size:60px ;
+    z-index: 3;
+    font-family:;
+}
+.textconb{
+    font-size: 22px;
+    position: relative;
+    text-align: center;
+    z-index: 3;
+    font-family: ;
+    top: -600px;
+    color: white;
+}
+.bottom1{
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    position: relative;
+    color: white;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding-top:15px;
+    border: 2px solid white;
+    opacity: 0.9;
+    margin-left:643px;
+    top: -470px;
+}
+.bottom2{
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    position: relative;
+    color: white;
+    width: 200px;
+    height: 34px;
+    text-align: center;
+    padding-top:15px;
+    background: #00897B;
+    margin-left:873px;
+    top: -518.5px;
+}
+#las{
+    font-size: 24px;
+    display: block;
+    color: #FFFFFF;
+    position: relative;
+    text-align: center;
+    top: -270px;
+}
+.content1{
+    width: 100%;
+    background: white;
+    height: 550px;
+    padding-top:100px ;
+}
+.text1{
+    width: 45%;
+    margin: auto;
+}
+.textcon1{
+    font-size: 30px;
+    text-align: center;
+}
+.textcon1b{
+    font-size: 15px;
+    text-align: center;
+}
+.box{
+    width: 300px;
+    height: 220px;
+    padding: 5px;
+    
+}
+#lag{
+    font-size: 50px;
+    text-align: center;
+    display: block;
+}   
+.gbox{
+    width: 80%;
+    margin-top: 150px;
+    margin-left: 170px;
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    
+}
+.textbox{
+    text-align: center;
+    margin-top: 10px;
+}
+.pbox{
+    text-align: center;
+    margin-top: 10px;
+}
+.content2{
+    width: 1701px;
+    height: 1300px;
+    background: #E4FDF9;
+    padding-top: 50px;
+    padding-bottom:50px ;
+}
+.zaholovok{
+    width: 40%;
+    height: 120px;
+    padding: 120px;
+    text-align: center;
+    margin: auto;
+}
+.servic{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.rgi{
+    font-size: 15px;
+}
+.box1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box2{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+.musor1{
+    width: 350px;
+    height: 410px;
+    background: #00897B;
+    padding: 20px;
+    text-align: center;
+    box-shadow:5px black ;
+}
+.musor2{
+    width: 350px;
+    height: 410px;
+    padding: 20px;
+    text-align: center;
+    background: white;
+}
+.fas{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.textmus{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.pmus{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.read{
+    text-decoration: none;
+    display: block;
+    margin: auto    ;
+    align-items: center;
+    position: relative;
+    color: black;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top:15px;
+    border: 2px solid black;
+}
+.read1{
+    text-decoration: none;
+    display: block;
+    margin: auto    ;
+    align-items: center;
+    position: relative;
+    color: white;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top:15px;
+    border: 2px solid white;
+}
