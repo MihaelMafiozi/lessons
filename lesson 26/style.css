@@ -1,0 +1,26 @@
+.box{
+    width: 1760px;
+    /* background:darkblue; */
+    height: 957px;
+    margin: 15px 0 0 41px;
+}
+.header{
+    width: 1611px;
+    height:299px;
+    background: blue;
+    margin: 43px 0 0 82px;
+}
+.sidebar{
+    width: 280px;
+    height: 584px;
+    background: red;
+    margin-top: 15px;
+    margin-left: 82px;
+}
+.content{
+    width: 1304px;
+    height: 584px;
+    background: lightgreen;
+    margin-top: -584px ;
+    margin-left: 390px;
+}
