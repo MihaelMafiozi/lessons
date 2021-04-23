@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* menu top*/
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightskyblue;
+}
+.menu{
+    width: 75%;
+    font-size: 25px;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 344px;
+    height: 100px;
+    z-index: 5;
+    background: lightskyblue;
+}
+.menu1{
+    width: 180px;
+    height: 75px;
+    text-align: center;
+    padding-top: 32px;
+    margin-left: 1px;
+    text-decoration: none;
+    color: #03384b;
+    display: block;
+}
+.menu1:hover{
+    background: rgb(106, 189, 240);
+    height: 76px;
+    z-index: 5;
+}
+/*content*/
+.content{
+    width: 70%;
+    height: 2000px;
+    background: rgb(115, 182, 224);
+}
+.zagolovok{
+    font-size: 35px;
+    margin-left: 170px;
+    color: #03384b;
+    text-align: center;
+}
+.text{
+    color:#03384b;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.text1{
+    color:#03384b;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-left: 20px;
+    text-align: center;
+}
+.text2{
+    color:#03384b;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-left: 20px;
+    text-align: center;
+}
+.ul{
+    font-size: 22px;
+    color:#03384b;
+    text-decoration: black;
+    margin-left: 150px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.ul1{
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.ul2{
+    width: 300px;
+    height: 300px;
+    margin-left: 410px;
+    margin-top: -301px;
+    font-size: 25px;
+    position: relative;
+}
+.h2{
+    font-size: 30px;
+    margin-left: 170px;
+    color: #03384b;
+    text-align: center;
+}
+.text3{
+    color:#03384b;
+    font-size: 25px;
+
+}
+
+
+
+
+
+
+
+
+/* sidebar navigtion R */
+.subR{
+    width: 30%;
+    height: 2000px;
+    background: rgb(61, 158, 219);
+}
+.menushka{
+    width: 100%;
+    height: 40px;    
+    font-size: 35px;
+    display: block;
+    text-decoration: none;
+    color:#03384b ;
+    text-align: center;
+}
+.ms{
+    display: flex;
+    flex-wrap: wrap;
+
+    max-height: 1000px;
+    top: 200;
+    background: rgb(61, 158, 219);
+}
+.menushka:hover{
+    background: rgb(106, 189, 240);
+    z-index: 5;
+}
+.video{
+    margin-left: 200px;
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: 100px;
+    background: rgb(67, 177, 245);
+}
+.fot{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40px;
+    padding-top: 30px;
+}
+#icons{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+#icons:hover{
+color: lightskyblue;
+}
+#icons:active{
+    color: blue;
+}
+
+/* imgs */
+.logo{
+    width: 210px;
+    height: 70px;
+    margin-left: 30px;
+    margin-top: 15px;
+
+}
+.Iam{
+    width: 350px;
+    height: 460px;
+    margin: 7px 7px 7px 7px;
+    float: left;
+}
+
+
